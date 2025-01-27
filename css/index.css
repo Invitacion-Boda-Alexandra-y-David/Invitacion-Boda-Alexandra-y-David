@@ -530,6 +530,10 @@ body {
     font-style: normal;
   }
 
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
   body {
       height: 100vh;
       margin: 0;    
@@ -986,6 +990,10 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
   }
 
   body {
